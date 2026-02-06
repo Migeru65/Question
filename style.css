@@ -1,0 +1,66 @@
+body {
+    background-color: #ffe6e6; /* Soft pink background */
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden; /* Prevents scrolling when button gets huge */
+}
+
+.container {
+    text-align: center;
+    position: relative;
+}
+
+h1 {
+    color: #d32f2f;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.button-group {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+#yesBtn {
+    background-color: #4caf50; /* Green */
+    color: white;
+    font-weight: bold;
+}
+
+#noBtn {
+    background-color: #f44336; /* Red */
+    color: white;
+    font-weight: bold;
+}
+
+#yesBtn:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+#noBtn:hover {
+    background-color: #d32f2f;
+}
